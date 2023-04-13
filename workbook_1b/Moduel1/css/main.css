@@ -1,4 +1,22 @@
 .photo{
-    width: 46vw;
-    height: 46vw;
+    width: 45vw;
+    height: 45vw;   
+    border-radius: 23vw;
+}
+
+.photo:hover {
+    border-radius: 0vw;
+}
+
+
+table{
+    width: 100%;
+}
+table, tr, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 1rem;
+    text-align: left;
 }
